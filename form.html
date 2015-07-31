@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+</head>
+<body>
+<p>Welcome to page</p>
+<form action="main.html" method="update">
+<fieldset>
+<legend>Personal Details
+</legend>
+	First Name: <input type="text" id="F.Name" name="FirstName" placeholder="First Name" maxlength="17">
+	<br>
+	Last Name: <input type="text" id="L.Name" name="LastName" placeholder="Last Name" max length="15"><br>
+	Numbers only: <input type="number" name="Numbersonly" min="0" max="10">
+	quantity: <input type="number" name="points" min="0" max="100" step="5" value="35">
+	date: <input type="date" name="today_date">
+	time:<input type="time" name="time">
+	Password: <input type="password" name="passwd">
+	E-mail: <input type="email" name="email"><br>
+	mobile: <input type="phone" name="phone">
+
+	</fieldset>
+	<fieldset>
+	<legened>color specifications</legened>
+	 Male: <input type="radio" id="name" Male="name">
+	 Female: <input type="radio" id="name" Female="name"><br>
+
+	</fieldset>
+	<input type="checkbox" name="colorchosen" value="Pink">Pink
+	<input type="checkbox" name="colorchosen" value="Blue">Blue<br>
+	<input type="radio" name="colorchosen" value="Red">Red
+	<input type="radio" name="colorchosen" value="Yellow">Yellow
+	<input type="radio" name="color" value="green"> green
+	<input type="radio" name="color" value="purple">purple<br>
+	<textarea name="initial_textarea" rows="4" columns="40"> this is an empty space to fill the gap</textarea>
+	<input type="submit" value="submit">
+	<button type="button" onclick="alert('hey watsup?')">Click for console</button><br>
+	<input list="names" names="namelist">
+	<datalist id="names">
+		<option value="sai">
+		<option value="omsai">
+		<option value="saaiii">
+	</datalist>
+	<input type="submit" value="submit">
+
+	
+	
+
+</form>
+</body>
+</html>
