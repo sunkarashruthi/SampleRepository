@@ -2,26 +2,47 @@
 <html>
 <head>
 <title>REGISTRATION FORM</title>
+<meta>UTF 8.o</meta>
 </head>
-<body>
+
+<body >
 <p>Welcome to page</p>
-<form action="main.html" method="update">
+<form action="main.html" autocomplete="on">
 <fieldset>
 <legend>Personal Details
 </legend>
+<div name="First Name">
 	First Name: <input type="text" id="F.Name" name="FirstName" placeholder="First Name" maxlength="17">
-	<br>
-	Last Name: <input type="text" id="L.Name" name="LastName" placeholder="Last Name" max length="15"><br>
+	</div>
+	
+	<div name="Last Name">
+	Last Name: <input type="text" id="L.Name" name="LastName" placeholder="Last Name" max length="15">
+	</div><br>
+	<div id="number:0">
 	Numbers only: <input type="number" name="Numbersonly" min="0" max="10">
+	</div>
+	<div name="quantity">
 	quantity: <input type="number" name="points" min="0" max="100" step="5" value="35">
+	</div>
+	<div name="date">
 	date: <input type="date" name="today_date">
+	</div>
+	<div name="time">
 	time:<input type="time" name="time">
+	</div>
+	<div name="password">
 	Password: <input type="password" name="passwd">
+	</div>
+	<div name="E-mail">
 	E-mail: <input type="email" name="email"><br>
+	</div>
+	<div name="mobile">
 	mobile: <input type="phone" name="phone">
+	</div>
 
 	</fieldset>
-	<fieldset>
+
+	<fieldset >
 	<legened>color specifications</legened>
 	 Male: <input type="radio" id="name" Male="name">
 	 Female: <input type="radio" id="name" Female="name"><br>
@@ -43,10 +64,28 @@
 		<option value="saaiii">
 	</datalist>
 	<input type="submit" value="submit">
-
 	
-	
-
 </form>
+<canvas id="mycanvas" width="400" height="250" style="border:2px solid #070719;">This is my canvas</canvas>
+<script type="text/javascript">
+	var a = document.getElementById("myCanvas");
+	var ctx = a.getContext("2d");
+	ctx.font= "30px Arial";
+	ctx.fillText("My Canvas",10,50);
+</script>
+
+<svg width="300" height="200">
+<polygon points="100,10 40,198,190,78,10,78 160,198" style="fill:yellow;stroke:purple; stroke-width:5 fill-rule:evenodd;" />
+</svg>
+<video width="400" height="200"  style="1px solid  #070719;"autoplay>
+<source src="VIDEO_TS.IFO" type="video/IFO">
+<source src="movie.ogg" type="video/ogg">
+</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AYO-xQpA2KM" frameborder="0" allowfullscreen></iframe>
+<iframe src:"http://wwww.twitter.com" width="550" height"450"></iframe>
+<p> &euro;</p>
+<p>&sum;</p>
+
+<div class=""> </div>
 </body>
 </html>
