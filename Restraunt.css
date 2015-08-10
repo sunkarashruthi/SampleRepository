@@ -1,0 +1,41 @@
+.h1
+{
+idth: 100%;
+    padding top :30px;
+    padding left:25px;
+    padding right:25px;
+    padding bottom:30px;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+      background-repeat: repeat-x;
+}
+.id{
+    width: 100%;
+    padding top :30px;
+    padding left:25px;
+    padding right:25px;
+    padding bottom:30px;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+  
+    background-repeat: repeat-x;
+}
+.header{
+    border-radius: 5px;
+    position:fixed;
+    z-index:1;
+      background-color: #6495ed;
+    background-image: url('http://www.hd-wallpapersdownload.com/upload/peacock-wallpaper/beautiful-peacock-bird-pictures-dowload.jpg');
+}
+.left{
+    border-radius: 5px;
+    float:left;
+}
+.right{
+    border-radius: 5px;
+    float:right;
+}
+#footer
+{
+    clear:both;
+}
